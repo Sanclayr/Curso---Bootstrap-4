@@ -1,0 +1,22 @@
+{
+  "name": "projeto01",
+  "version": "1.0.0",
+  "description": "Iniciação Bootstrap 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bootstrap",
+    "css",
+    "html",
+    "projeto"
+  ],
+  "author": "sanclayr",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.4"
+  }
+}

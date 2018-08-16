@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="..\node_modules\bootstrap\dist\css\bootstrap.min.css">
+
+    <title>Alinhamento</title>
+</head>
+
+<body>
+    <h1 class="text-center display-4 my-2">Alinhamento e Offset</h1>
+    <hr>
+    <div class="container-fluid bg-warning" style="margin-top: 30px">
+        <!-- align-items-{breakpoint}-{value} -->
+        <!-- <section class="row" style="height: 200px">
+            <div class="col bg-secondary align-self-lg-start">Column1</div>
+            <div class="col bg-info align-self-md-center">Column2</div>
+            <div class="col bg-success align-self-sm-end">Column3</div>
+        </section> -->
+        <!-- Justify content-->
+        <!-- <section class="row justify-content-end" style="height: 200px">
+            <div class="col-4 bg-secondary">Column1</div>
+            <div class="col-4 bg-info">Column2</div>
+        </section> -->
+        <section class="row" style="height: 200px">
+                <div class="col-4 bg-secondary">Column1</div>
+                <div class="col-4 bg-info offset-3">Column2</div>
+                <div class="col bg-success"></div>
+            </section>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="..\node_modules\jquery\dist\jquery.min.js"></script>
+    <script src="..\node_modules\popper.js\dist\umd\popper.min.js"></script>
+    <script src="..\node_modules\bootstrap\dist\js/bootstrap.min.js"></script>
+</body>
+
+</html>
